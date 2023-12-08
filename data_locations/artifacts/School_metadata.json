@@ -1,0 +1,144 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "age",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "score",
+						"type": "uint16"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "newAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "newScore",
+						"type": "uint16"
+					}
+				],
+				"name": "chanceStudentInfoMemory",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "newName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "newAge",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint16",
+						"name": "newScore",
+						"type": "uint16"
+					}
+				],
+				"name": "chanceStudentInfoStroge",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "Id",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/datalocations.sol": "School"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/datalocations.sol": {
+			"keccak256": "0x0b9979451e62fdaaee06d766a74f0fb836e74f3ca2334d344f395b8d2bd1b371",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5f466ded7767370bcfe8afcb69e8fe4c1583089e240f83f48d36639019a72c2d",
+				"dweb:/ipfs/QmS583VphtigNENY48oavoCxYNbJr3KCEwgpDuoyG7ynAk"
+			]
+		}
+	},
+	"version": 1
+}
