@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interarct.sol": "Other"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interarct.sol": {
+			"keccak256": "0x35e8f78a09badfc41ac9db55be648e41ddda4e1ef6b6b9d42551d9e752968040",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://36caf600212eb71515e4310761989e079040eae9952ab9ce8aab37f39ad32b28",
+				"dweb:/ipfs/QmSL2jTxRbfSJvp6NyrGoiKqc4m43bCoPHZB1PNuW2rt7p"
+			]
+		}
+	},
+	"version": 1
+}
