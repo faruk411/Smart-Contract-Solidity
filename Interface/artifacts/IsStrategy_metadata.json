@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAddressAndAmount",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interface.sol": "IsStrategy"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interface.sol": {
+			"keccak256": "0xc74d59f1ca4d261fe8f33635da6e2c377b3c159c0c56c68ff1885fe521a42be7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://608044b0da1f053f68a0c17835a5f8b1aee0e6658f99a57e52a3a48a5f819eb9",
+				"dweb:/ipfs/Qme3C6pQiVV35kxDwHxVk4DG1kYemWkmixA1GCxiYdXatT"
+			]
+		}
+	},
+	"version": 1
+}
