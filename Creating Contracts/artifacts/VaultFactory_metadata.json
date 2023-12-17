@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "CreateVault",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "UserVaults",
+				"outputs": [
+					{
+						"internalType": "contract Vault",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createVaultWithPayment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Create.sol": "VaultFactory"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Create.sol": {
+			"keccak256": "0xc9689b578d1c50270af68bc0ef1d0e0e7e5c592e51ac27df8dadb540148bbb13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9bd3390da025b88997705dfbdf1207fd5a3aa953a8f4fef89d2e7145c9d999ef",
+				"dweb:/ipfs/QmXiVb7bEy82dGFrfM21HUSM7dmuCLYazw5SQ1bxAQyC8j"
+			]
+		}
+	},
+	"version": 1
+}
