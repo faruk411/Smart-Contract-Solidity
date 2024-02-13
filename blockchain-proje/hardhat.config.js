@@ -1,6 +1,6 @@
 require("@nomiclabs/hardhat-waffle");
 
-const PRIVATE_KEY = "38508a1d6ab816253b81c56717de36779c83e6a5bfba48b212bfa13be2aaa23d";
+const PRIVATE_KEY = "PRIVATE_KEY";
 
 module.exports = {
     solidity: "0.8.20",
@@ -8,7 +8,7 @@ module.exports = {
 
       hardhat: {
         forking: {
-          url: "https://eth-mainnet.g.alchemy.com/v2/qFcq7W9VBNvNP6QlMjtoiepmPfx_rBqk",
+          url: "URL",
           
         }
       },
